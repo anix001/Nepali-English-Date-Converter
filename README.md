@@ -1,11 +1,13 @@
 # Nepali-English-Date-Converter
 
-##Installation
+## Installation
 ```bash
 npm i nepali-english-date-converter
 ```
-##Usage
+## Usage
 ```python
+import {NepaliToEnglishDateConverter} from 'nepali-english-date-converter';
+or
 const {NepaliToEnglishDateConverter, EnglishToNepaliDateConverter} = require('nepali-english-date-converter');
 
 let englishDate = EnglishToNepaliDateConverter(2023,12,13);
@@ -13,7 +15,7 @@ console.log("🚀 ~ file: script.js:4 ~ a:", englishDate);
 let nepaliDate = NepaliToEnglishDateConverter(2080,8,27);
 console.log("🚀 ~ file: script.js:6 ~ b:", nepaliDate);
 ```
-##Output
+## Output
 ```python
 {
   year: 2080,
