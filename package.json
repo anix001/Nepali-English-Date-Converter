@@ -1,6 +1,6 @@
 {
   "name": "nepali-english-date-converter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This is a nepali to english date converter and viceversa. In English date, supported year is between 1994 to 2033 and in nepali date, supported year is between 2000 to 2090. ",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/anix001/Nepali-English-Date-Converter.git"
   },
   "keywords": [
-    "dateconverter"
+    "dateconverter", "NepaliDate converter", "EnglishToNepaliDate Converter"
   ],
   "author": "anix001",
   "license": "ISC",

@@ -4,6 +4,7 @@ const { isEnglishDateInRange } = require("./isEnglishDateInRange");
 const { isLeapYear } = require("./isLeapYear");
 const { getNepaliMonth } = require('./getNepaliMonth');
 const { getNepaliDays } = require('./getNepaliDays');
+const {getNepaliYear} = require('./getNepaliYear');
 
 const EnglishToNepaliDateConverter = (inputYear, inputMonth, inputDay) => {
     if (isEnglishDateInRange(inputYear, inputMonth, inputDay) === false) {
@@ -83,9 +84,9 @@ const EnglishToNepaliDateConverter = (inputYear, inputMonth, inputDay) => {
   
       numDay = day;
       let result = {
-        year: year,
-        month: month,
-        date: totalNepaliDays,
+        year: getNepaliYear(year),
+        month: getNepaliDays(month),
+        date: getNepaliDays(totalNepaliDays),
         weekDay:getNepaliDays(numDay),
         dayName: getNepaliDayOfWeek(day),
         monthName: getNepaliMonth(month),

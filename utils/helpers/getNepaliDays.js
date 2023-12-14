@@ -128,6 +128,10 @@ const getNepaliDays = (englishDaysInNumber) => {
       case 32:
         nepaliDay = "३२";
         break;
+
+      case 0:
+        nepaliDay = "०";
+        break;
     }
     return nepaliDay;
   };

@@ -18,9 +18,9 @@ console.log("🚀 ~ file: script.js:6 ~ b:", nepaliDate);
 ## Output
 ```python
 {
-  year: 2080,
-  month: 8,
-  date: 27,
+  year: '२०८०',
+  month: '८',
+  date: '२७',
   weekDay: '४',
   dayName: 'बुधवार',
   monthName: 'मंसिर'
